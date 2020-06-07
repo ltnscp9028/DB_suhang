@@ -2,9 +2,13 @@
     margin-right: 2rem;
     padding: 15px 20px 15px 20px;
     border-radius: 5px;
+    background-color: #ffffff;
     cursor: pointer;
     box-shadow: -5px -5px 20px #ffffff,  5px 5px 20px #BABECC;
     transition: all 0.2s ease-in-out;
+    color: #000000;
+    /* text-shadow: inset 0px -5px 10px 0px rgba(0, 0, 0, 0.5); */
+    /* text-shadow: 2px 2px 4px rgba(0,0,0,.3), -2px -2px 4px rgba(255,255,255,1) */
     
 }
 
@@ -46,7 +50,7 @@
     padding-left: 2rem;
     margin-bottom: 1rem;
     transition: all 0.2s ease-in-out;
-    background-color:#ffffff;
+    background-color: #ffffff;   
     box-shadow:  inset 2px 2px 5px #BABECC, 
     inset -5px -5px 10px #ffffff;
     appearance: none;

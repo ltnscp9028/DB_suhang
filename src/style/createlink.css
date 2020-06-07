@@ -35,7 +35,8 @@
 }
 
 .title{
-    width: 30rem;
+    /* width: 30rem; */
+    width: 40%;
     border: none;
     height: 3rem;
     padding-left: 2.5rem;
@@ -57,7 +58,8 @@
 
 .url{
     border: none;
-    width: 32rem;
+    /* width: 32rem; */
+    width: 42.2%;
     padding-top: 4rem;
     padding-left: 2.5rem;
     height: 10rem;

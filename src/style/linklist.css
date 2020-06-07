@@ -1,0 +1,21 @@
+.item_wrapper{
+    display: flex;
+    margin-bottom: 1.5rem;
+    margin-left: 20px;
+    background-color: #ffffff;
+    align-items: flex-start;
+    box-sizing: border-box;
+    border-radius: 5px;
+    width: 96.8%;
+    box-shadow:  5px 5px 10px #d9d9d9, 
+    -5px -5px 10px #ffffff;
+    padding: 1rem 0 1rem 1rem;
+}
+
+.vote_icon{
+    font-size: 11px;
+    color: #828282;
+    margin-left: .25rem;
+    display: block;
+    cursor: pointer;
+}

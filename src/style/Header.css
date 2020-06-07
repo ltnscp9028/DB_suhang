@@ -1,11 +1,11 @@
 .header_wrapper{
-    background-color: white;
+    /* background-color:#FAFAFA; */
     display: flex;
     justify-content: space-between;
     white-space: nowrap;
     padding: 3%;
-    background: #ffffff;
-    border-radius: 50px 50px 0 0 ;
+    /* background: #ffffff; */
+    /* border-radius: 50px 50px 0 0 ; */
 }
 
 .link_font{
@@ -29,6 +29,7 @@
     margin-left: .25rem;
     color: #777777;
     cursor: pointer;
+    /* text-shadow: 2px 2px 4px rgba(0,0,0,.3), -2px -2px 4px rgba(255,255,255,1) */
     
 }
 
@@ -37,7 +38,7 @@
     margin-right: 7%;
     padding: 10px 25px 10px 25px;
     border-radius: 5px;
-    background: #ffffff;
+    background-color: #Ffffff;
     box-shadow: -5px -5px 20px #ffffff,  5px 5px 20px #BABECC;
     transition: all 0.2s ease-in-out;
 }

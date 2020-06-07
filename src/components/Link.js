@@ -3,6 +3,7 @@ import { timeDifferenceForDate } from '../Utils';
 import { AUTH_TOKEN } from '../constants';
 import { gql } from 'apollo-boost';
 import { Mutation } from 'react-apollo';
+import '../style/linklist.css';
 
 const VOTE_MUTATION = gql`
   mutation VoteMutation($linkId: ID!) {
@@ -28,7 +29,7 @@ class Link extends Component {
     render() {
         const authToken = localStorage.getItem(AUTH_TOKEN)
         return (
-            <div className="flex mt2 items-start">
+            <div className="item_wrapper">
                 <div className="flex items-center">
                     <span className="gray">{this.props.index + 1}.</span>
 
@@ -39,7 +40,7 @@ class Link extends Component {
                                 this.props.updateStoreAfterVote(store, vote, this.props.link.id)}
                         >
                             {voteMutation => (
-                                <div className="ml1 gray f11" onClick={voteMutation}>
+                                <div className="vote_icon" onClick={voteMutation}>
                                     ▲
                                 </div>
                             )}

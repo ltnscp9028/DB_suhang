@@ -3,7 +3,7 @@ import Link from './Link';
 import { Query } from 'react-apollo';
 import gql from 'graphql-tag';
 import { LINKS_PER_PAGE } from '../constants';
-
+import '../style/linklist.css';
 const NEW_LINKS_SUBSCRIPTION = gql`
   subscription {
     newLink {
@@ -166,8 +166,8 @@ class LinkList extends Component {
     return (
       <Query query={FEED_QUERY} variables={this._getQueryVariables()}>
         {({ loading, error, data, subscribeToMore }) => {
-          if (loading) return <div>Fetching</div>
-          if (error) return <div>Error</div>
+          if (loading) return <div>로딩중</div>
+          if (error) return <div>에러</div>
 
           this._subscribeToNewLinks(subscribeToMore)
           this._subscribeToNewVotes(subscribeToMore)
