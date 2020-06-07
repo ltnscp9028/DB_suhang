@@ -1,0 +1,82 @@
+.submit_btn{
+    margin-left: 1rem;
+    width: 10rem;
+    height: 3rem;;
+    /* text-align: center; */
+    background-color: #ffffff;
+    /* border: 1px solid red; */
+    border-radius:5px;
+    outline: none;
+    border: none;
+    box-shadow: -5px -5px 20px #ffffff,  5px 5px 20px #BABECC;
+    transition: all 0.2s ease-in-out;
+    /* padding: 10px 25px 10px 25px; */
+}
+
+.submit_btn:hover{
+    box-shadow: -2px -2px 5px #ffffff, 2px 2px 5px #BABECC;
+}
+
+.submit_btn:active{
+    box-shadow: inset 1px 1px 2px #BABECC, inset -1px -1px 2px #ffffff;
+}
+
+.url{
+    height: 1000px;
+}
+
+.value_wrapper{
+    display: flex;
+    flex-direction: column;
+    box-sizing: border-box;
+    /* width: auto; */
+    margin-left: 1.2rem;
+    padding-bottom: 1rem;
+}
+
+.title{
+    width: 30rem;
+    border: none;
+    height: 3rem;
+    padding-left: 2.5rem;
+    border-radius: 5px;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color:#ffffff;
+    box-shadow:  inset 2px 2px 5px #BABECC, 
+    inset -5px -5px 10px #ffffff;
+    appearance: none;
+}
+
+
+
+.title:focus{
+    outline: none;
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
+
+.url{
+    border: none;
+    width: 32rem;
+    padding-top: 4rem;
+    padding-left: 2.5rem;
+    height: 10rem;
+    resize: none;
+    border-radius: 5px;
+    line-height: 1rem;
+    /* padding-top: 4rem; */
+    padding: none;
+    margin-bottom: 1rem;
+    transition: all 0.2s ease-in-out;
+    background-color:#ffffff;
+    box-shadow:  inset 2px 2px 5px #BABECC, 
+    inset -5px -5px 10px #ffffff;
+    /* appearance: none; */
+}
+
+
+
+.url:focus{
+    outline: none;
+    box-shadow:  inset 1px 1px 2px #BABECC, inset -1px -1px 2px #FFF;
+}
